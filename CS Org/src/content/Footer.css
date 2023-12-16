@@ -1,0 +1,80 @@
+
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.certifications {
+  margin-bottom: 20px;
+}
+
+.certifications h3 {
+  font-size: 1.2em;
+}
+
+
+.connect-with-us {
+  margin-bottom: 20px;
+}
+
+.connect-with-us h3 {
+  font-size: 1.2em;
+}
+
+.connect-with-us ul {
+  list-style: none;
+}
+
+.connect-with-us ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.connect-with-us a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.locations {
+  margin-bottom: 20px;
+}
+
+.locations h3 {
+  font-size: 1.2em;
+}
+
+.locations p {
+  margin-bottom: 5px;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright p {
+  font-size: 0.8em;
+  margin-top: 20px;
+}
