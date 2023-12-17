@@ -12,7 +12,7 @@ function Sec1 (){
         </p> 
         </div>
 
-      <img src="https://clarklandresources.com/wp-content/uploads/gridpic-compass.jpg"/>
+      <img className="img" src="https://clarklandresources.com/wp-content/uploads/gridpic-compass.jpg"/>
     </div>
   )
 }

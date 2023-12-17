@@ -1,5 +1,5 @@
 
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './Head.css'
 import './content/Navbar'
 import Navbar from './content/Navbar'
@@ -12,14 +12,28 @@ function App() {
 
 
   return (
+    <div>
+      
+    <Navbar/>
+    <Routes>
+    <Route path="ChristianSteinbrugger" element={
       <div>
-        <Navbar/>
         <WelcomeScreen/>
         <Sec1/>
         <Sec2/>
         <Sec3/>
         <Footer/>
       </div>
+    }/>
+
+    <Route path="*" element={
+      <div>
+        some content here
+      </div>
+    }/>
+
+    </Routes>
+    </div>
   )
 
 }

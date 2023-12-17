@@ -4,16 +4,17 @@
 }
 body{
   margin: 0;
+  font-size: 16px
 }
 #root {
-  margin: 0rem auto 0rem;
+  margin: 0;
 }
 
 .f1 {
   color: rgb(24,64,111);
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 120%;
 }
 .logo {
 
@@ -48,7 +49,13 @@ body{
 
 .link{
   margin: 0rem 3rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
+.link:hover{
+  color: #6B9C86;
+}
+
 .img{
   width: 100%;
   height: 100%;
@@ -126,13 +133,14 @@ button:hover{
   padding: 2rem;
   width: 50%;
   height: 60%;
-
+  color: white;
   display: flex;
   position: absolute;
   /* align-items: center; */
   flex-direction: column;
   justify-content: center;
   text-wrap: wrap;
+  top: 10rem;
 }
 
 .cover{
@@ -163,7 +171,7 @@ padding-block: 5rem;
 
 
 .mountainImg{
-  margin-top: -8rem;
+  margin-top: -9rem;
   margin-bottom: -1rem; 
   /* rm margin bottom --- */
 }
@@ -184,10 +192,94 @@ padding-block: 5rem;
   padding: 20px;
   margin: 10px;
 }
-baseFont{
-  
-}
+
 
 li{
   margin: 0.5rem 3rem;
 }
+
+
+.rout{
+  width:200px;
+height: 200px;}
+
+
+
+
+
+
+
+
+
+/* Media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 13px; /* Adjust font size for smaller screens */
+  }
+
+  .logo {
+    width: 80%; /* Adjust logo size for smaller screens */
+    height: auto;
+  }
+
+
+  .linkContainer {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    text-align: center;
+  }
+
+  .link {
+    margin: 1rem 0;
+  }
+
+  .mainTextContainer {
+    width: 80%; /* Adjust width for smaller screens */
+    height: auto;
+    position: relative;
+    color: rgb(24,64,111);
+    top: 0;
+  }
+
+  .cover {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgSmall {
+    width: 80%;
+    height: auto;
+  }
+
+  .splitText {
+    padding: 1rem;
+  }
+
+  .splitTextContainer {
+    grid-template-columns: 1fr; /* Display columns as a single column on smaller screens */
+  }
+
+  .box {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  .rout {
+    width: 100%;
+    height: auto;
+  }
+
+  .b1{
+    border: rgb(24,64,111) solid 3px;
+  color: rgb(24,64,111);
+  }
+  .f6{
+    display: none;
+  }
+}
+
+
+

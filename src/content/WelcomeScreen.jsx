@@ -2,13 +2,15 @@
 function WelcomeScreen (){
   return(
     <div>
-      <div className="mainTextContainer">
-        <p className="f2 white">Professional, trustworthy & ethical -
-          Christian Steinbrugger Inc.</p>
-          <button>let us help manage your projects</button>
-
-      </div>
+      
       <img className="img welcomeImg" src="https://clarklandresources.com/wp-content/uploads/home-hero.jpg"/>
+      <div className="mainTextContainer">
+        <p className="f2 ">Professional, trustworthy & ethical -
+          Christian Steinbrugger Inc.</p>
+          <button className="b1">let us help manage your projects</button>
+      </div>
+
+
       <img className="img mountainImg" src="https://clarklandresources.com/wp-content/themes/clark2021/images/mountains.svg"/>
 
       <div className="splitTextContainer">
